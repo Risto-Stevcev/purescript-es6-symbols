@@ -1,0 +1,29 @@
+{
+  "name": "purescript-es6-symbols",
+  "version": "1.0.0",
+  "description": "[![Latest release](http://img.shields.io/bower/v/purescript-es6-symbols.svg)](https://github.com/Risto-Stevcev/purescript-es6-symbols/releases) [![Build Status](https://travis-ci.org/Risto-Stevcev/purescript-es6-symbols.svg?branch=master)](https://travis-ci.org/Risto-Stevcev/purescript-es6-symbols)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "clean": "rm -rf output && rm -rf .pulp-cache",
+    "build": "pulp build --censor-lib --strict",
+    "test": "pulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risto-Stevcev/purescript-es6-symbols.git"
+  },
+  "author": "Risto Stevcev",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/purescript-es6-symbols/issues"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/purescript-es6-symbols#readme",
+  "devDependencies": {
+    "pulp": "^12.0.1",
+    "purescript-psa": "^0.5.1",
+    "purescript": "^0.11.6"
+  }
+}
