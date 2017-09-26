@@ -1,5 +1,11 @@
+
 {
   "name": "purescript-es6-symbols",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Risto-Stevcev/purescript-es6-symbols.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
